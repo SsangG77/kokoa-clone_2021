@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,300&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "variables.css";
+@import "login.css";
+@import "nav-bar.css";
+@import "user-component.css";
+@import "screen-header.css";
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
