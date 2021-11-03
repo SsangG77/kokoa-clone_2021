@@ -6,7 +6,9 @@
 @import "nav-bar.css";
 @import "user-component.css";
 @import "screen-header.css";
+@import "friends.css";
 
 body {
+    color:#2E363E;
     font-family: 'Josefin Sans', sans-serif;
 }
