@@ -41,18 +41,13 @@
 }
 
 .user-component__column:last-child {
-    color: rgba(0, 0, 0, 0.5)
-}
-
-.friends-screen__channel {
-    margin-top: 25px;
-    border-top: 1px solid rgba(0,0,0,0.2);
-    padding-top: 15px;
-}
-
-.friends-screen__channel-header {
-    margin-bottom: 30px;
-    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.4);
     display: flex;
-    color: rgba(0,0,0,0.5);
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-component_time {
+    margin-bottom: 5px;
+    display: flex;
 }

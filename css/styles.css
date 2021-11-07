@@ -7,8 +7,15 @@
 @import "user-component.css";
 @import "screen-header.css";
 @import "friends.css";
+@import "badge.css";
+@import "find-dot.css";
+@import "find.css";
 
 body {
     color:#2E363E;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }

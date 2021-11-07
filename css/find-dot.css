@@ -1,0 +1,11 @@
+
+.find-screen__icon__notification-dot {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    right: -5px;
+    top: -14px;
+}
