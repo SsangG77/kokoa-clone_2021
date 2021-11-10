@@ -50,6 +50,8 @@
 
 .open-post {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .open-post__title {
@@ -89,4 +91,32 @@
 
 .open-post__member-status {
     color: #ffb0e0;
+}
+
+.open-post__photo img {
+    width: 110px;
+    height: 110px;
+    border-radius: 10%;
+}
+
+.open-post__column {
+    position: relative;
+}
+
+.open-post__heart-count {
+    display: flex;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    align-items: center;
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+.open-post__heart-count span {
+    margin-left: 3px;
 }
