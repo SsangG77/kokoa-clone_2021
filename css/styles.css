@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,300&display=swap');
 @import "reset.css";
-@import "status-bar.css";
+@import "components/status-bar.css";
 @import "variables.css";
-@import "login.css";
-@import "nav-bar.css";
-@import "user-component.css";
-@import "screen-header.css";
-@import "friends.css";
-@import "badge.css";
-@import "find-dot.css";
-@import "find.css";
+@import "screens/login.css";
+@import "components/nav-bar.css";
+@import "components/user-component.css";
+@import "components/screen-header.css";
+@import "screens/friends.css";
+@import "components/badge.css";
+@import "screens/find-dot.css";
+@import "screens/find.css";
+@import "components/icon-row.css";
+@import "screens/more.css";
+@import "components/alt-screen-header.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
     color:#2E363E;

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - Kokoa Talk</title>
+    <title>Settings - Kokoa Talk</title>
 </head>
 
 <body>
@@ -24,47 +24,48 @@
         </div>
     </div>
 
-    <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
-        <div class="screen-header__icons">
-            <span>
-                <i class="fas fa-search fa-lg"></i>
-            </span>
-            <span>
-                <i class="fas fa-comment-medical fa-lg"></i>
-            </span>
-            <span>
-                <i class="fas fa-music fa-lg"></i>
-            </span>
-            <span>
-                <a href="settings.html">
-                    <i class="fas fa-cog fa-lg"></i>
-                </a>
-            </span>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            
+            <a href="javascript:history.back();"><i class="fas fa-angle-left fa-3x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search fa-2x"></i>
         </div>
     </header>
 
-
     <main class="main-screen">
-        <a href="chat.html">
-            <div class="user-component">
-                <div class="user-component__column">
-                 <img src="sangjin.jpg" class="user-component__avatar user-component__avatar" />
-                 <div class="user-component__text">
-                     <h4 class="user-component__title">Ssang Jin</h4>
-                     <h6 class="user-component__subtitle">Hi! I`m Sangjin</h6>
-                 </div>
+       <ul class="settings-list">
+           <li class="settings-setting">
+               <div class="settings-setting__column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notices</span>
                 </div>
-         
-                <div class="user-component__column">
-                    <span class="user-component_time">21:22</span>
-                    <div class="badge">1</div>
+                <div class="settings-setting__column"></div>
+            </li>
+               
+            
+           <li class="settings-setting">
+                <div class="settings-setting__column">
+                    <i class="fas fa-flask"></i>
+                    <span>Kakao Lab</span>
                 </div>
-             </div>
-        </a>
-        
-        
+                <div class="settings-setting__column"></div>
+            </li>
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Virsion</span>
+                </div>
+                <div class="settings-setting__column">Latest Version</div>
+            </li>
+       </ul>
     </main>
+
+    
 
 
 <nav class="nav">
@@ -77,7 +78,7 @@
         <li class="nav__btn">
             <a class="nav__link" href="chats.html">
                 <span class="nav__notification badge">1</span>
-                <i class="fas fa-comment fa-2x"></i>
+                <i class="far fa-comment fa-2x"></i>
             </a>
         </li>
         <li class="nav__btn">
