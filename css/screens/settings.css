@@ -18,4 +18,29 @@
 
 .settings-setting__column:last-child {
     opacity: 0.3;
+    
+}
+
+#virsion {
+    padding-bottom:40px;
+    margin-bottom: 20px;
+}
+
+.settings-setting {
+    display: flex;
+}
+
+.settings-setting__column {
+    display: flex;
+}
+
+.settings-setting__column__notification {
+    margin-left: 10px;
+    background-color: tomato;
+    text-align: center;
+    color: white;
+    width: 18px;
+    height:18px;
+    font-size: 12px;
+    border-radius: 50%;
 }
