@@ -90,3 +90,64 @@
 .message-row--own .message__info {
     flex-direction: row-reverse;
 }
+
+.reply {
+    position: fixed;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    bottom: 0;
+    padding: 5px 25px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.reply .reply__column:first-child {
+    width: 10%;
+}
+
+.reply .reply__column:last-child {
+    width: 90%;
+    position: relative;
+}
+
+.reply i {
+    opacity: 0.5;
+}
+
+.reply input {
+    padding: 12px;
+    width: 100%;
+    border: var(--main-border);
+    border-radius: 20px;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+    position:absolute;
+    right: -24px;
+    top: 2px;
+}
+
+.reply__column:last-child > i {
+    right: 20px;
+    top: 4px;
+}
+
+.reply__column button {
+    background-color: var(--yellow);
+    border: 0;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+    outline: none;
+}
+
+.reply__column button i {
+    opacity: 1;
+}
