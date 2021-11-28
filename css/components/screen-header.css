@@ -29,3 +29,18 @@
     animation: rotateCog 1s linear infinite;
 
 }
+
+@keyframes playmusic {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform:scale(1.2, 1.2) translateY(-5px);
+    }
+    100% {
+        transform: none;
+    }
+}
+.fa-music {
+    animation: playmusic 2s ease-in-out infinite;
+}
