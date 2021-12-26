@@ -2,10 +2,11 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #f9f9fa;
+    background-color: #BE81F7;
     padding: 20px 50px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid #BE81F7;
+    box-shadow: -1px 0 5px 10px #BE81F7;
    
 }
 .nav__list {
@@ -15,6 +16,10 @@
 .nav__link {
     position:relative;
     color:#2E363E;
+}
+
+.nav__link {
+    color: white;
 }
 
 @keyframes notificationAnimation{

@@ -10,11 +10,13 @@
     font-size: 28px;
     font-weight: 600;
     align-items: center;
+    color: #BE81F7;
 }
 
 .screen-header__icons span {
     margin-left: 25px;
     position: relative;
+    color: #BE81F7;
 }
 
 @keyframes rotateCog {
